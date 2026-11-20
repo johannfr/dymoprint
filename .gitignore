@@ -1,0 +1,18 @@
+# This project's own planning notes, not meant to be published
+/description.md
+
+# Claude Code local settings (CLAUDE.md itself lives outside this folder)
+/.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Nix build outputs
+result
+result-*
+.direnv/
